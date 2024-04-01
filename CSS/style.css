@@ -1,0 +1,223 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px;
+  width: 100%;
+}
+nav a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 18px !important;
+  color: #fff !important;
+}
+
+.banner {
+  position: relative;
+  background: url(../Images/Banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.banner h2 {
+  color: #fff;
+  font-size: 32px;
+  text-align: right;
+  font-family: "lato", sans-serif;
+}
+.banner h2 span {
+  font-size: 52px;
+}
+
+.about {
+  background: url(../Images/About-bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about h2 {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.about p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+}
+.about button {
+  background-color: transparent;
+  padding: 5px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 30px;
+  transition: all 100ms ease-out;
+}
+.about button a {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+.about button:hover {
+  background-color: #000;
+}
+.about button:hover a {
+  color: #ffffff;
+}
+
+.floor {
+  background-color: #000;
+}
+.floor h2 {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 350;
+  color: #FFFFFF;
+  font-style: normal;
+}
+.floor .nav-pills .nav-link.active, .floor .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.floor .nav-link {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+}
+.floor .nav-link:hover {
+  color: #fff;
+}
+
+.amenities h2 {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.amenities img {
+  width: 64px;
+  height: 64px;
+}
+.amenities h5 {
+  font-size: 22px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+}
+
+.Gallery {
+  background-color: #000;
+}
+.Gallery .nav-pills .nav-link.active, .Gallery .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.Gallery .nav-link {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+}
+.Gallery .nav-link:hover {
+  color: #fff;
+}
+.Gallery h2 {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.location h2 {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.location h3 {
+  font-size: 26px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.location p {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact {
+  background-color: #000;
+}
+.contact h2 {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.contact h3 {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.contact p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.contact input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.contact textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.contact button {
+  background: transparent;
+  color: #fff;
+  padding: 5px 32px;
+  font-size: 20px !important;
+  border: 1px solid #ffffff;
+}/*# sourceMappingURL=style.css.map */
