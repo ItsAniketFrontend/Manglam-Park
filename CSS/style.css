@@ -40,6 +40,7 @@ nav a {
   background-color: #000;
   border: 1px solid #fff;
   padding: 14px 15px;
+  animation: pulse 2s infinite;
 }
 .ctc button a {
   text-decoration: none;
@@ -49,6 +50,17 @@ nav a {
   font-style: normal;
   font-size: 18px !important;
   color: #fff !important;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .banner {
