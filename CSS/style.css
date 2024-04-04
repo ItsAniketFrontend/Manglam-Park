@@ -23,6 +23,33 @@ nav a {
   }
 }
 
+.ctc {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+@media (min-width: 991px) {
+  .ctc {
+    display: none;
+  }
+}
+.ctc button {
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #fff;
+  padding: 14px 15px;
+}
+.ctc button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 18px !important;
+  color: #fff !important;
+}
+
 .banner {
   position: relative;
   background: url(../Images/Banner.jpg);
@@ -81,6 +108,30 @@ nav a {
   }
   .banner h2 span {
     font-size: 32px;
+  }
+}
+.banner button {
+  background-color: transparent;
+  padding: 6px 16px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.banner button a {
+  color: #fff;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Lexend", sans-serif;
+}
+@media (max-width: 991px) {
+  .banner button {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .banner {
+    margin-top: 30px;
   }
 }
 
@@ -220,6 +271,19 @@ nav a {
   font-weight: 400;
   font-style: normal;
 }
+@media (max-width: 991px) {
+  .location .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.location .col-6 h3 {
+  text-align: center;
+}
+.location .col-6 p {
+  text-align: center;
+}
 
 .contact {
   background-color: #000;
@@ -250,6 +314,9 @@ nav a {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+.contact hr {
+  border: 1px solid #fff;
+}
 .contact textarea {
   width: 100%;
   padding: 10px 10px;
@@ -264,6 +331,23 @@ nav a {
   padding: 5px 32px;
   font-size: 20px !important;
   border: 1px solid #ffffff;
+  border-radius: 30px;
+}
+.contact select {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+}
+.contact select option {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
 }
 
 footer p {
