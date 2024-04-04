@@ -50,7 +50,7 @@ nav a {
   font-size: 18px !important;
   color: #fff !important;
 }
-@media (min-width) {
+@media (min-width: 991px) {
   .ctc button {
     animation: pulse 2s infinite;
   }
