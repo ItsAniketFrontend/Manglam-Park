@@ -23,7 +23,7 @@ nav{
 
 .ctc{
     @media (min-width:991px) {
-        display: none;
+        width: fit-content;
     }
     position: fixed;
     bottom: 0px;

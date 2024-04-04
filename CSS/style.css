@@ -31,7 +31,8 @@ nav a {
 }
 @media (min-width: 991px) {
   .ctc {
-    display: none;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 .ctc button {
