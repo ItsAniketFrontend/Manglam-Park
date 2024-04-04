@@ -43,7 +43,9 @@ nav{
         font-size: 18px !important;
         color: #fff !important;
         }
-        animation: pulse 2s infinite;
+        @media (min-width) {
+            animation: pulse 2s infinite;
+        }
     }
 
     @keyframes pulse {
